@@ -1,0 +1,86 @@
+/*顶部样式*/
+.x{
+	width:100%;
+	margin:0;
+	padding:0;
+	border-bottom:5px solid #C3CAD0;
+}
+/*每层都可以用这个共用Y样式*/
+.y{
+	width:1500px;
+	margin:0 auto;
+}
+.z{
+	height:50px;
+}
+/*设置宽高没用？原来是打开窗口不对~~*/
+ .top{
+	width:400px;
+	height:40px;
+	font:25px/50px "黑体"
+} 
+.top1{
+	float:left;
+}
+.top2{
+	float:right;
+	text-align:right;
+}
+/*导航栏通栏的样式*/
+.dhl{
+	width:1500px;
+	height:150px;
+	margin:0 auto;
+	position:relative;
+}
+/*导航栏通栏里的盒子*/
+.dhbj{
+	float:left;
+	height:150px;
+	width:400px;
+	font:20px/200% "宋体";
+	color:#C3CAD0;
+} 
+/*商标图片样式*/
+.pic1{
+	width:200px;
+	height:100px;
+	margin-top:20px;
+}
+/*把那个特别的“我”字设定样式*/
+.dhbj span.big{
+	font-size:28px;
+}
+/*导航栏链接样式*/
+.tubiao{
+	position:absolute;
+	right:0;
+	bottom:0;
+	width:600px;
+	height:50px;
+}
+.tubiao ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-align:center;
+}
+/*一个符号打错了{打成【所以怎么设置都没效果，粗心！！！*/
+.tubiao li{
+	float:left;
+	width:120px;
+	height:50px;
+	font:22px/50px "宋体";
+}
+.tubiao a{
+	display:block;
+	width:100%;
+	height:100%;
+	text-decoration:none;
+	color:black;
+}
+.tubiao a:hover{
+	text-decoration:underline;
+	background:yellow;
+	color:red;
+}/*导航栏写完*/
