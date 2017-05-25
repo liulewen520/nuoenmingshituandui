@@ -13,6 +13,9 @@
 .z{
 	height:50px;
 }
+a{
+	text-decoration:none;
+}
 /*设置宽高没用？原来是打开窗口不对~~*/
  .top{
 	width:400px;
@@ -27,6 +30,9 @@
 	text-align:right;
 }
 /*导航栏通栏的样式*/
+.x2{
+	border-bottom:10px solid #C3CAD0;
+}
 .dhl{
 	width:1500px;
 	height:150px;
@@ -76,7 +82,6 @@
 	display:block;
 	width:100%;
 	height:100%;
-	text-decoration:none;
 	color:black;
 }
 .tubiao a:hover{
@@ -84,3 +89,118 @@
 	background:yellow;
 	color:red;
 }/*导航栏写完*/
+/*写页面背景图片栏*/
+.x3{
+	background:url("../img/2.jpg");
+	margin:0;
+	padding:0;
+}
+/*背景大盒子设定宽高*/
+.beijing{
+	height:230px;
+	position:relative;
+}
+/*公共样式*/
+.bj{
+	position:absolute;
+}
+/*背景文字*/
+.bj.wz{
+	height:150px;
+	left:0;
+	bottom:0;
+}
+/*背景图片*/
+.bj.tp{
+	right:0;
+	top:0;
+}
+/*背景文字样式*/
+.wz .spec{
+	color:#14499D;
+	font:40px/0px "宋体";
+}
+.wz .white{
+	color:#3333cc;
+	font:20px/10px "微软雅黑";
+}  /*END```*/
+/*首页链接*/
+.lianjie{
+	height:50px;
+	border-bottom:1px solid #C3CAD0;
+	font:20px/50px "simhei";
+}
+.lianjie a{
+	color:red;
+}
+/*简介*/
+.tpjj{
+	height:800px;
+}
+.tpjj ul{
+	margin:0;
+	padding:0;
+}
+.tpjj li{
+	width:345px;
+	height:380px;
+	float:left;
+	list-style:none;
+	margin:10px;
+}
+.tpjj li img{
+	width:345px;
+	height:200px;
+}
+.tpjj p{
+	width:345px;
+}/*简介写完*/
+/*底部导航栏样式*/
+.x3{
+	background:#B3BDC6;
+}
+.dbdh{
+	width:400px;
+	height:50px;
+	margin:0 auto;
+}
+.dbdh ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-align:center;
+}
+.dbdh li{
+	float:left;
+	width:99px;
+	height:50px;
+	border-right:1px solid black;
+	font:20px/50px "simhei"
+}
+/*设置最后一个li边框为0*/
+.dbdh .border0{
+	border:0;
+}
+.dbdh a{
+	color:red;
+	display:block;
+	width:100%;
+	height:100%;
+}
+.dbdh a:hover{
+	background:yellow;
+	text-decoration:underline;
+	color:black;
+}
+/*结尾商标。。*/
+.dbsb{
+	width:600px;
+	height:60px;
+	margin:0 auto;
+}
+.dbsb p{
+	margin:0;
+	width:600px;
+	font:15px/200% "宋体";
+}
+/*完美收工*/
